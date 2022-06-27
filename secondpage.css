@@ -1,0 +1,260 @@
+:root{
+    --green-for-secondary: rgb(51, 192, 98);;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Abel', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgb(165, 164, 164);
+}
+.navbar h1{
+    color: rgb(51, 192, 98);
+}
+.navbar .items{ 
+   
+    margin: 10px;
+    font-size: 18px;
+    margin-left: auto; 
+    margin-right: 10px;
+}
+.navbar .items a{
+    text-decoration: none;
+    /* margin: 10px;  */
+    color:black;
+    padding: 12px;
+}
+
+.navbar .items a:hover{
+background-color: var(--green-for-secondary);
+border-radius: 15px;
+color: white;
+}
+
+/* images */
+
+.column{
+    max-width: 250px; 
+}
+
+.row{
+    margin: 10px;
+}
+.row img{
+    width: 100%;
+}
+.row img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.big-img{
+/* width: 600px; ; */
+max-width: 55%;
+min-width: 55%;
+padding: 15px 0px;
+}
+.big-img img{
+    width: 98%;
+    height: 100%;
+    padding: 0px 5px;
+    
+    
+}
+
+.container-1{
+    display: flex; 
+    align-items: center;
+    margin-top: 20px ;
+    margin-left: 10px;
+}
+
+/* card - agent  */
+.card-agent{
+    /* padding: 30px; */
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    box-shadow: 1px 1px 10px rgb(201, 199, 199);
+    padding-top :60px; ;
+    border-radius: 8px;
+    /* width: 300px;
+    height: 440px; */
+}
+ 
+
+.card-agent img{
+    border-radius: 50%;
+    width: 150px; 
+}
+
+.card-agent .contact{
+    background-color: rgb(238, 236, 236);
+    width: 300px;
+    padding: 10px 0px ;
+
+
+}
+
+.card-agent button{
+    font-size :15px; 
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 8px 50px;
+    margin: 2px;
+    background-color: var(--green-for-secondary);
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+.card-agent button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+
+}
+
+.card-agent p{
+    margin: 5px;
+}
+
+.card-agent .phno{
+    background-color: rgb(216, 247, 216);
+    padding: 10px 0px ;
+}
+
+
+/* description */
+
+
+.description{ 
+    display: flex;
+}
+
+
+/* left-container */
+
+.left-container{
+    display: inline-block;
+    margin: 10px;
+    width: 240px;
+    align-items: center;
+    text-align: center;
+    
+}
+.left-container h1{
+    font-size: 45px;
+    color: var(--green-for-secondary);
+}
+.left-container s{
+    color: rgb(124, 124, 124);
+    font-size: 20px;
+}
+
+/* navbar - bottom */
+.navbar-bottom{
+    margin: 10px;
+}
+.navbar-bottom .items{
+    display: inline-block;
+    background-color:  rgb(238, 236, 236);
+    border-radius: 50px;
+    /* padding: 5px; */
+
+}
+.navbar-bottom a{
+    padding: 15px;
+    border-radius: 50px;
+}
+.navbar-bottom a:hover{
+    background-color: white;
+}
+.navbar-bottom ul{
+    /* margin: 25px; */
+    padding: 18px 8px;
+}
+.navbar-bottom i{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(138, 136, 136);
+}
+
+
+/* right container */
+
+.right-container{
+    margin: 10px;
+    width: 53%;
+}
+.right-container h1{
+    font-size: 40px;
+    display: inline-block;
+}
+.right-container span{
+    float:right;
+}
+.right-container  .icons i{
+    font-size: 25px;
+    padding: 10px 15px;
+    color: black;
+}
+.right-container table{
+    border-top: 1px  solid rgb(228, 226, 226);
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    /* float: left; */
+}
+
+
+/* analyses */
+
+.analyses{
+    box-shadow: 1px 1px 10px rgb(201, 199, 199);
+    /* width: 100%; */
+    width: 300px;
+    /* height: 400px; */
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+ #continer-chart{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+} 
+
+.pie span{
+    display: inline-block; 
+}
+.pie span i{
+    color: rgb(155, 152, 152);
+}
+ 
+.pie span p b{
+color: var(--green-for-secondary);
+}
+
+.analyses #bar{
+margin: 20px;
+padding: 10px;
+}
+
+.analyses .hh{
+color: var(--green-for-secondary);
+padding: 7px;
+}
+
+.analyses .pl{
+    color:black;
+    padding: 6px;
+}
